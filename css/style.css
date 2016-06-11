@@ -1,0 +1,45 @@
+/**{
+	border: 1px solid red;
+}*/
+
+.nav-bar{
+display: inline-block;
+width: 100%;
+margin-bottom: 25px;
+border-bottom: 1px solid lightblue;
+}
+
+.left-header{
+	float: left;
+	width: 40%;
+}
+
+.right-header{
+	float: right;
+	width: 40%;
+}
+
+.row{
+	text-align: center;
+}
+
+.vice{
+	display: inline-block;
+	border: 1px solid black;
+	padding: 5px;
+	text-align: center;
+	margin: 10px;
+	background-color: green;
+}
+
+
+
+
+
+footer{
+	position: absolute;
+	bottom: 0px;
+	width: 100%;
+	border-top: 1px solid lightblue;
+
+}
