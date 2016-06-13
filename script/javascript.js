@@ -41,7 +41,7 @@ var ridiculousQuotes = ["The wall will go up and Mexico will start behaving",
 //
 function racist(){
 //renames this varibale to make it easy to type
-	var quote = document.getElementById("quote-text");
+	var quote = document.getElementById("racist");
 
 //for loop to iterate through the array
 	for (var i = 0; i < racistQuotes.length; i++ ){
@@ -49,7 +49,7 @@ function racist(){
 //random selection of quote
 		var newQuote = racistQuotes[Math.floor(Math.random()*racistQuotes.length)];
 //innerHTML to replace current text element
-		quote.innerHTML = '<q>' + "Listen people," + " " + newQuote;
+		quote.innerHTML = "Listen people," + " " + newQuote;
 //js css styling to resize
 		quote.style.fontSize = " xx-large";
 	}
@@ -57,7 +57,7 @@ function racist(){
 };
 
 function sexist(){
-	var quote1 = document.getElementById("quote-text");
+	var piggy = document.getElementById("sexist");
 
 
 	for (var i = 0; i < sexistQuotes.length; i++ ){
@@ -65,14 +65,14 @@ function sexist(){
 //random selection of quote
 		var secondQuote = sexistQuotes[Math.floor(Math.random()*sexistQuotes.length)];
 //innerHTML to replace current text element
-		quote1.innerHTML = '<q>' + "Listen people," + " " + secondQuote;
+		piggy.innerHTML = "Listen people," + " " + secondQuote;
 //js css styling to resize
-		quote1.style.fontSize = " xx-large";
+		piggy.style.fontSize = " xx-large";
 	}
 };
 
 function ridiculous(){
-	var quote2 = document.getElementById("quote-text");
+	var stupid = document.getElementById("quote-text");
 
 
 	for (var i = 0; i < ridiculousQuotes.length; i++ ){
@@ -80,9 +80,9 @@ function ridiculous(){
 //random selection of quote
 		var thirdQuote = ridiculousQuotes[Math.floor(Math.random()*ridiculousQuotes.length)];
 //innerHTML to replace current text element
-		quote2.innerHTML = '<q>' + "Listen people," + " " + thirdQuote;
+		stupid.innerHTML = "Listen people," + " " + thirdQuote;
 //js css styling to resize
-		quote2.style.fontSize = " xx-large";
+		stupid.style.fontSize = " xx-large";
 	}
 };
 
