@@ -13,6 +13,7 @@ var racistQuotes =
 "If you're back is wet, you cannot come to our great nation!",
 "We think we have terroist overseas, we have people here that want everyone to speak spanish!",
 "If they don't speak-a English, then why are they here?"];
+
 var sexistQuotes = [“Robert Pattinson should not take back Kristen Stewart. She cheated on him like a dog & will do it again – just watch. He can do much better!”
 ,
 "Ariana Huffington is unattractive, both inside and out. I fully understand why her former husband left her for a man- he made a good decision.",
@@ -28,7 +29,13 @@ var sexistQuotes = [“Robert Pattinson should not take back Kristen Stewart. Sh
 ];
 var ridiculousQuotes = ["The wall will go up and Mexico will start behaving",
 "The only people I want counting my money are little short guys that wear yarmulke every day.",
-
+"One of the key problems today is that politics is such a disgrace. Good people don't go into government.",
+"He's not a war hero. He's a war hero because he was captured. I like people that weren't captured, OK, I hate to tell you.(regarding Senator John McCain)",
+"If you can't get rich dealing with politicians, there's something wrong with you.",
+"Appreciate the congrats for being right on radical Islamic terrorism, I don't want congrats, I want toughness & vigilance. We must be smart. (after 50 people were killed in a Florida nightclub)",
+"The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our 'leaders' can't say no!",
+"the concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+"We won with poorly educated. I love the poorly educated."
 ];
 
 //
@@ -42,10 +49,40 @@ function racist(){
 //random selection of quote
 		var newQuote = racistQuotes[Math.floor(Math.random()*racistQuotes.length)];
 //innerHTML to replace current text element
-		quote.innerHTML = "Listen people," + " " + newQuote;
+		quote.innerHTML = '<q>' + "Listen people," + " " + newQuote;
 //js css styling to resize
 		quote.style.fontSize = " xx-large";
 	}
 
-}
+};
+
+function sexist(){
+	var quote1 = document.getElementById("quote-text");
+
+
+	for (var i = 0; i < sexistQuotes.length; i++ ){
+
+//random selection of quote
+		var secondQuote = sexistQuotes[Math.floor(Math.random()*sexistQuotes.length)];
+//innerHTML to replace current text element
+		quote1.innerHTML = '<q>' + "Listen people," + " " + secondQuote;
+//js css styling to resize
+		quote1.style.fontSize = " xx-large";
+	}
+};
+
+function ridiculous(){
+	var quote2 = document.getElementById("quote-text");
+
+
+	for (var i = 0; i < ridiculousQuotes.length; i++ ){
+
+//random selection of quote
+		var thirdQuote = ridiculousQuotes[Math.floor(Math.random()*ridiculousQuotes.length)];
+//innerHTML to replace current text element
+		quote2.innerHTML = '<q>' + "Listen people," + " " + thirdQuote;
+//js css styling to resize
+		quote2.style.fontSize = " xx-large";
+	}
+};
 
