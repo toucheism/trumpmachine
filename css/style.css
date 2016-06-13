@@ -23,8 +23,9 @@ border-bottom: 1px solid lightblue;
 .primary-text{
 	font-size: 40px;
 	margin-left: 20px;
-	font-family: monospace;
+	font-family: 'Roboto',monospace;
 	text-transform: uppercase;
+	font-weight
 }
 
 .nav-list{
@@ -98,4 +99,13 @@ footer{
 	background-color: lightgray;
 	display: flex;
 
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+}
+
+#quote-text{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300px;
 }
