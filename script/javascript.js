@@ -8,17 +8,20 @@ var homeNav = document.getElementsByClassName("nav-list");
 }
 //Global variables
 //Quotes array
+var yourName = prompt("What's your name?");
+
+
 var racistQuotes =
 ["I love Mexicans, as long as they stay on the other side of the wall!",
 "If your back is wet, you cannot come to our great nation!",
-"We think we have terroist overseas, we have people here that want everyone to speak spanish!",
+"We think we have terroists overseas, we have people here that want everyone to speak spanish!",
 "If they don't speak-a English, then why are they here?"];
 
 var sexistQuotes = [ "Robert Pattinson should not take back Kristen Stewart. She cheated on him like a dog & will do it again – just watch. He can do much better!"
 ,
 "Ariana Huffington is unattractive, both inside and out. I fully understand why her former husband left her for a man- he made a good decision.",
 "You know, it really doesn't matter what the media write as long as you've got a young, and beautiful, piece of ass.",
-"If I were running 'The View', I'd fire Rosie O'Donnell. I mean, I'd look at her right in that fat ugly face of hers, I'd say 'Rosie, you're fire.'",
+"If I were running 'The View', I'd fire Rosie O'Donnell. I mean, I'd look at her right in that fat ugly face of hers, I'd say 'Rosie, you're fired.'",
 "I'll supply funds and she'll take care of the kids. It's not like I'm gonna be walking the kids down Central Park.",
 "26,000 unreported sexual assaults in the military -only 238 convictions. What did the geniuses expect when they put men and women together?",
 "All of the women on The Apprentice flirted with me -consciously or unconsciously- that's to be expected.",
@@ -34,8 +37,8 @@ var ridiculousQuotes = ["The wall will go up and Mexico will start behaving",
 "If you can't get rich dealing with politicians, there's something wrong with you.",
 "Appreciate the congrats for being right on radical Islamic terrorism, I don't want congrats, I want toughness & vigilance. We must be smart. (after 50 people were killed in a Florida nightclub)",
 "The U.S. will invite El Chapo, the Mexican drug lord who just escaped prison, to become a U.S. citizen because our 'leaders' can't say no!",
-"the concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
-"We won with poorly educated. I love the poorly educated."
+"The concept of global warming was created by and for the Chinese in order to make U.S. manufacturing non-competitive.",
+"We won with the poorly educated. I love the poorly educated!"
 ];
 
 //
@@ -49,7 +52,7 @@ function racist(){
 //random selection of quote
 		var newQuote = racistQuotes[Math.floor(Math.random()*racistQuotes.length)];
 //innerHTML to replace current text element
-		quote.innerHTML = "Listen people," + " " + newQuote;
+		quote.innerHTML = "Listen  " + yourName + " " + newQuote;
 //js css styling to resize
 		quote.style.fontSize = " xx-large";
 	}
@@ -65,7 +68,7 @@ function sexist(){
 //random selection of quote
 		var secondQuote = sexistQuotes[Math.floor(Math.random()*sexistQuotes.length)];
 //innerHTML to replace current text element
-		piggy.innerHTML = "Listen people," + " " + secondQuote;
+		piggy.innerHTML = "Listen  " + yourName + " " + secondQuote;
 //js css styling to resize
 		piggy.style.fontSize = " xx-large";
 	}
@@ -80,7 +83,7 @@ function ridiculous(){
 //random selection of quote
 		var thirdQuote = ridiculousQuotes[Math.floor(Math.random()*ridiculousQuotes.length)];
 //innerHTML to replace current text element
-		stupid.innerHTML = "Listen people," + " " + thirdQuote;
+		stupid.innerHTML = "Listen  " + yourName + " " + thirdQuote;
 //js css styling to resize
 		stupid.style.fontSize = " xx-large";
 	}

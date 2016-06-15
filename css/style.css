@@ -45,6 +45,7 @@ border-bottom: 1px solid lightblue;
 
 .row{
 	text-align: center;
+	display: flex;
 }
 
 .vice{
@@ -74,6 +75,7 @@ margin-left: auto;
 font-size: 60px;
 text-transform: capitalize;
 font-family: cursive;
+padding-bottom: 400px;
 }
 
 .footer-left-div{
