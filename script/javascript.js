@@ -12,10 +12,13 @@ var yourName = prompt("What's your name?");
 
 
 var racistQuotes =
-["I love Mexicans, as long as they stay on the other side of the wall!",
-"If your back is wet, you cannot come to our great nation!",
-"We think we have terroists overseas, we have people here that want everyone to speak spanish!",
-"If they don't speak-a English, then why are they here?"];
+["And isn’t it funny. I’ve got black accountants at Trump Castle and Trump Plaza. Black guys counting my money! I hate it",
+"the Hispanics, the Muslims and the blacks - all criminals",
+"The best taco bowls are made in Trump Tower Grill. I love Hispanics!",
+"What can be simpler or more accurately stated? The Mexican Government
+is forcing their most unwanted people into the United States. They are,
+in many cases, criminals, drug dealers, rapists, etc.",
+"I’m not a racist. I don’t have a racist bone in my body."];
 
 var sexistQuotes = [ "Robert Pattinson should not take back Kristen Stewart. She cheated on him like a dog & will do it again – just watch. He can do much better!"
 ,
