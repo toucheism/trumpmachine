@@ -1,23 +1,26 @@
+//var yourName = prompt("What's your name?");
 
-
+//setTimeout( yourName, 10000);
 //Still need to do something cool here for the naviagation
 function showTime(){
 var homeNav = document.getElementsByClassName("nav-list");
+
+function yourNameAction(){
+	alert("What's your nizzle");
+}
 
 //document.getElementById("nav-list-id").style.background= "blue";
 }
 //Global variables
 //Quotes array
-var yourName = prompt("What's your name?");
+//window.onload()
 
 
 var racistQuotes =
 ["And isn’t it funny. I’ve got black accountants at Trump Castle and Trump Plaza. Black guys counting my money! I hate it",
 "the Hispanics, the Muslims and the blacks - all criminals",
 "The best taco bowls are made in Trump Tower Grill. I love Hispanics!",
-"What can be simpler or more accurately stated? The Mexican Government
-is forcing their most unwanted people into the United States. They are,
-in many cases, criminals, drug dealers, rapists, etc.",
+"What can be simpler or more accurately stated? The Mexican Government is forcing their most unwanted people into the United States. They are, in many cases, criminals, drug dealers, rapists, etc.",
 "I’m not a racist. I don’t have a racist bone in my body."];
 
 var sexistQuotes = [ "Robert Pattinson should not take back Kristen Stewart. She cheated on him like a dog & will do it again – just watch. He can do much better!"
@@ -55,7 +58,7 @@ function racist(){
 //random selection of quote
 		var newQuote = racistQuotes[Math.floor(Math.random()*racistQuotes.length)];
 //innerHTML to replace current text element
-		quote.innerHTML = "Listen  " + yourName + " " + newQuote;
+		quote.innerHTML = "Listen  " + yourName + ", " + newQuote;
 //js css styling to resize
 		quote.style.fontSize = " xx-large";
 	}
@@ -71,7 +74,7 @@ function sexist(){
 //random selection of quote
 		var secondQuote = sexistQuotes[Math.floor(Math.random()*sexistQuotes.length)];
 //innerHTML to replace current text element
-		piggy.innerHTML = "Listen  " + yourName + " " + secondQuote;
+		piggy.innerHTML = "Listen  " + yourName + ", " + secondQuote;
 //js css styling to resize
 		piggy.style.fontSize = " xx-large";
 	}
@@ -86,9 +89,11 @@ function ridiculous(){
 //random selection of quote
 		var thirdQuote = ridiculousQuotes[Math.floor(Math.random()*ridiculousQuotes.length)];
 //innerHTML to replace current text element
-		stupid.innerHTML = "Listen  " + yourName + " " + thirdQuote;
+		stupid.innerHTML = "Listen  " + yourName + ", " + thirdQuote;
 //js css styling to resize
 		stupid.style.fontSize = " xx-large";
 	}
 };
+
+
 
