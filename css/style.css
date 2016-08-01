@@ -47,6 +47,10 @@ border-bottom: 1px solid lightblue;
 	text-align: center;
 	display: flex;
 }
+.nameInput{
+	text-align: center;
+
+}
 
 .vice{
 	display: inline-block;

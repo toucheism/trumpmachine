@@ -1,20 +1,12 @@
-//var yourName = prompt("What's your name?");
 
-//setTimeout( yourName, 10000);
-//Still need to do something cool here for the naviagation
-function showTime(){
-var homeNav = document.getElementsByClassName("nav-list");
+var yourName=[];
+//this function allows name input, via onclick event in html
+namePrompt = function(){
+var name = document.getElementById("nameText").value;
+var nameField = document.getElementById("nameInputId");
 
-function yourNameAction(){
-	alert("What's your nizzle");
+yourName.push(name);
 }
-
-//document.getElementById("nav-list-id").style.background= "blue";
-}
-//Global variables
-//Quotes array
-//window.onload()
-
 
 var racistQuotes =
 ["And isn’t it funny. I’ve got black accountants at Trump Castle and Trump Plaza. Black guys counting my money! I hate it",
@@ -94,6 +86,4 @@ function ridiculous(){
 		stupid.style.fontSize = " xx-large";
 	}
 };
-
-
 
