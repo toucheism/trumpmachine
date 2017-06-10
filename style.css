@@ -1,0 +1,129 @@
+/**{
+	border: 1px solid red;
+}*/
+
+body{
+	font-family: 'Roboto', sans-serif;
+
+}
+
+
+.primary-text{
+	font-size: 2em;
+	font-family: 'Roboto',monospace;
+	text-transform: uppercase;
+	font-weight: 800;
+	text-align: center;
+	color: #fff;
+	background-color: red;
+	padding: 5px 0;
+
+}
+.inputForm{
+
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+
+}
+#nameText{
+	text-align: center;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	margin-top: 25px;
+	width: 250px;
+	border-radius: 5px;
+
+}
+
+#nameTextSubmit{
+	color: #fff;
+	background-color:orange;
+	border-radius: 5px;
+
+}
+
+.vice{
+	width: 90%;
+	border: 1px solid black;
+	text-align: center;
+	padding: 5px;
+	margin: 5px auto;
+	color: gold;
+	font-weight: 700;
+	background-color: #000;
+	border-radius: 5px;
+}
+
+.wrd{
+padding-top: 20px;
+font-size: 30px;
+text-align: center;
+}
+
+.generator-box{
+width: 100%;
+height: 150px;
+text-align: center;
+margin-top: 20px;
+
+margin-right: auto;
+margin-left: auto;
+font-size: 14px;
+text-transform: capitalize;
+font-family: cursive;
+
+
+}
+
+ul li a{
+	color: #FFFFFF;
+	cursor: pointer red;
+	text-decoration: none;
+}
+
+
+footer{
+	width: 100%;
+	color: #fff;
+	background-color: #000;
+	position: fixed;
+	bottom: 0;
+}
+
+#quote-text{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300px;
+	font-size: 30px;
+}
+
+@media (min-width: 700px){
+
+
+.generator-box{
+	width: 50%;
+	background-color: lightgray;
+	margin-bottom: 50px;
+}
+.left{
+	width: 40%;
+
+	background-color: red;
+	/*display: none;*/
+
+
+}
+
+.vice{
+	width: 50%;
+	height: 50px;
+	font-size: 2em;
+	margin-bottom: 20px;
+}
+.wrd{
+	margin-bottom: 15px;
+}
+
+
+}
