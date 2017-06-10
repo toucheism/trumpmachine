@@ -1,12 +1,35 @@
+// Document better
 
-var yourName=[];
-//this function allows name input, via onclick event in html
-namePrompt = function(){
+
+var yourName;
+
+// //this function allows name input, via onclick event in html
+namePrompt=function (){
 var name = document.getElementById("nameText").value;
-var nameField = document.getElementById("nameInputId");
-
-yourName.push(name);
+//var nameField = document.getElementById("nameInputId");
+yourName =name
+//.style.color = "blue";
 }
+
+addEventListener("keypress", function(e){
+	var name = document.getElementById("nameText").value;
+
+	if(e.keyCode == 13){
+		yourName = name;
+	}
+
+
+
+})
+
+// function namePrompt(){
+// 	name =  document.getElementById("nameText").value;
+// 	var nameForm = document.getElementById("userNameForm");
+// 	yourName = yourName.push(name);
+
+
+// }
+
 
 var racistQuotes =
 ["And isn’t it funny. I’ve got black accountants at Trump Castle and Trump Plaza. Black guys counting my money! I hate it",
@@ -50,9 +73,9 @@ function racist(){
 //random selection of quote
 		var newQuote = racistQuotes[Math.floor(Math.random()*racistQuotes.length)];
 //innerHTML to replace current text element
-		quote.innerHTML = "Listen  " + yourName + ", " + newQuote;
+		quote.innerHTML = "Listen  " + yourName  + ", " + newQuote;
 //js css styling to resize
-		quote.style.fontSize = " xx-large";
+		quote.style.fontSize = " large";
 	}
 
 };
@@ -68,7 +91,7 @@ function sexist(){
 //innerHTML to replace current text element
 		piggy.innerHTML = "Listen  " + yourName + ", " + secondQuote;
 //js css styling to resize
-		piggy.style.fontSize = " xx-large";
+		piggy.style.fontSize = " large";
 	}
 };
 
@@ -83,7 +106,7 @@ function ridiculous(){
 //innerHTML to replace current text element
 		stupid.innerHTML = "Listen  " + yourName + ", " + thirdQuote;
 //js css styling to resize
-		stupid.style.fontSize = " xx-large";
+		stupid.style.fontSize = " large";
 	}
 };
 
